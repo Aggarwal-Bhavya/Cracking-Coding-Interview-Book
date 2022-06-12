@@ -17,5 +17,8 @@ Mathematically, different noatations are defined as such:
 - Best-case or lower bound: Big-Omega: Ω(n)
 - Average-case: Big-Theta: Θ(n)
 - Non-tight upper bound: o(n)
-- Non-tight lower bound: ω(n) <br>
-Note: When upper or lower bounds don't coincide with average complexity, we can call them non-tight bounds.
+- Non-tight lower bound: ω(n) 
+<br>
+Note: When upper or lower bounds don't coincide with average complexity, we can call them non-tight bounds. <br>
+There's also amortized complexity in which complexity is calculated by averaging over a sequence of operations.
+<br>
