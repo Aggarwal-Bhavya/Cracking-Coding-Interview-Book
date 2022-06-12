@@ -11,3 +11,11 @@ This is often called the order of growth.
 O(1)<O(logn)<O(√n)<O(n)<O(nlogn)<O(n<sup>2</sup>)<O(n<sup>3</sup>)<O(2<sup>n</sup>)<O(10<sup>n</sup>)<O(n!)
 <br><br>
 In complexity analysis, only the dominant term is retained. Constants and scaling factors are ignored since we are concerned only about asymptotic.
+<br>
+Mathematically, different noatations are defined as such:
+- Worst-case or upper bound: Big-O: O(n)
+- Best-case or lower bound: Big-Omega: Ω(n)
+- Average-case: Big-Theta: Θ(n)
+- Non-tight upper bound: o(n)
+- Non-tight lower bound: ω(n) <br>
+Note: When upper or lower bounds don't coincide with average complexity, we can call them non-tight bounds.
